@@ -1,4 +1,32 @@
-<!DOCTYPE html>
-<html>
+@charset "utf-8";
+/* CSS Document */
 
-</html>
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    padding: 4rem 0;
+    background-color: rgb(243, 111, 109);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.bg-color1 {
+    background-color: rgb(143, 71, 95);
+}
+
+.bg-color2 {
+    background-color: rgb(1, 141, 142);
+}
+
+p {
+    padding: 1rem 0;
+}
+
+footer {
+    padding: 4rem 0;
+    background-color: rgb(243, 111, 109);
+}
