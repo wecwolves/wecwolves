@@ -7,7 +7,7 @@
 
 header {
     padding: 4rem 0;
-    background-color: rgb(243, 111, 109);
+    background-color: rgb(229, 222, 221);
 }
 
 section {
@@ -15,11 +15,11 @@ section {
 }
 
 .bg-color1 {
-    background-color: rgb(143, 71, 95);
+    background-color: rgb(243, 164, 157);
 }
 
 .bg-color2 {
-    background-color: rgb(1, 141, 142);
+    background-color: rgb(241, 207, 203);
 }
 
 p {
@@ -28,5 +28,5 @@ p {
 
 footer {
     padding: 4rem 0;
-    background-color: rgb(243, 111, 109);
+    background-color: rgb(229, 222, 221);
 }
