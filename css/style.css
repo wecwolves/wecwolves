@@ -5,9 +5,38 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* CSS styling for header elements */
+
 header {
     padding: 4rem 0;
     /* background-color: rgb(229, 222, 221); */
+}
+
+.subscribe {
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    word-break: 2px;
+    background-color: rgb(229, 222, 211);
+}
+
+.subscribe-link {
+    color: black;
+    text-decoration: none;
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+.subscribe-link:hover {
+    background-color: white;
+    border: 1px solid rgb(243, 164, 157);
+    color: rgb(243, 164, 157);
+    text-decoration: none;
+    padding: .5rem;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 
 .bg-floral {
@@ -17,6 +46,8 @@ header {
     background-position: right top;
     background-size: cover;
 }
+
+/* CSS styling for the body content */
 
 section {
     padding: 2rem 0;
@@ -39,9 +70,46 @@ p {
     padding: 1rem 0;
 }
 
+.box {
+    padding: 3rem 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 5px solid rgb(229, 222, 211);
+    margin: 2rem 0;
+    width: 80%;
+    height: auto;
+}
+
+.spacing {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.hr-white {
+    background-color: rgb(229, 222, 211);
+    width: 80%;
+}
+
+.vertical-hr {
+    border-right: 1px solid rgb(229, 222, 211);
+}
+
+.margin-center {
+    padding-top: 2rem;
+}
+
+.mission {
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+/* CSS styling for the footer */
+
 footer {
-    padding: 4rem 0;
-    /* background-color: rgb(229, 222, 221); */
+    padding: 4rem 0 2rem 0;
+    background-color: rgb(229, 222, 211);
 }
 
 /* CSS styling for board member section */
@@ -65,4 +133,21 @@ footer {
 .board-name {
     height: 25px;
     width: 200px;
+}
+
+/* CSS styling for links */
+
+.foot-link {
+    text-decoration: none;
+    color: black;
+}
+
+.foot-link:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
