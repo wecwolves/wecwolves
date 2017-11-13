@@ -18,6 +18,8 @@ header {
     background-size: cover;
 }
 
+/* CSS styling for the body content */
+
 section {
     padding: 2rem 0;
 }
@@ -39,8 +41,45 @@ p {
     padding: 1rem 0;
 }
 
+.box {
+    padding: 3rem 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 5px solid rgb(229, 222, 211);
+    margin: 2rem 0;
+    width: 80%;
+    height: auto;
+}
+
+.spacing {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.hr-white {
+    background-color: rgb(229, 222, 211);
+    width: 80%;
+}
+
+.vertical-hr {
+    border-right: 1px solid rgb(229, 222, 211);
+}
+
+.margin-center {
+    padding-top: 2rem;
+}
+
+.mission {
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+/* CSS styling for the footer */
+
 footer {
-    padding: 4rem 0;
+    padding: 4rem 0 2rem 0;
     /* background-color: rgb(229, 222, 221); */
 }
 
@@ -65,4 +104,20 @@ footer {
 .board-name {
     height: 25px;
     width: 200px;
+}
+
+/* CSS styling for links */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-styling {
+    padding: 2rem;
 }
