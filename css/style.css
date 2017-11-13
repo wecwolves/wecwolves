@@ -5,9 +5,38 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* CSS styling for header elements */
+
 header {
     padding: 4rem 0;
     /* background-color: rgb(229, 222, 221); */
+}
+
+.subscribe {
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    word-break: 2px;
+    background-color: rgb(229, 222, 211);
+}
+
+.subscribe-link {
+    color: black;
+    text-decoration: none;
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+.subscribe-link:hover {
+    background-color: white;
+    border: 1px solid rgb(243, 164, 157);
+    color: rgb(243, 164, 157);
+    text-decoration: none;
+    padding: .5rem;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 
 .bg-floral {
@@ -80,7 +109,7 @@ p {
 
 footer {
     padding: 4rem 0 2rem 0;
-    /* background-color: rgb(229, 222, 221); */
+    background-color: rgb(229, 222, 211);
 }
 
 /* CSS styling for board member section */
@@ -108,16 +137,17 @@ footer {
 
 /* CSS styling for links */
 
-a {
+.foot-link {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.foot-link:hover {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
-}
-
-.icon-styling {
-    padding: 2rem;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
