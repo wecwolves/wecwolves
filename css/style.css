@@ -12,26 +12,18 @@ header {
     /* background-color: rgb(229, 222, 221); */
 }
 
-.subscribe {
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    word-break: 2px;
+.subscribe-header {
     background-color: rgb(229, 222, 211);
 }
 
-.subscribe-link {
+.button-link {
     color: black;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    word-spacing: 1.5px;
     padding: .5rem;
     border: 1px solid black;
-}
-
-.subscribe-link:hover {
-    background-color: white;
-    border: 1px solid rgb(243, 164, 157);
-    color: rgb(243, 164, 157);
-    text-decoration: none;
-    padding: .5rem;
     -o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
@@ -39,8 +31,23 @@ header {
 	transition: .5s;
 }
 
-.bg-floral {
-    background-image: url("../images/floral.jpg");
+.button-link:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(243, 164, 157);
+    color: rgb(243, 164, 157);
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: .5rem 2rem;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.bg-pastel {
+    background-image: url("../images/pastel-bg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
@@ -58,6 +65,46 @@ section {
     height: auto;
 }
 
+.button-rsvp {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: .5rem;
+    border: 1px solid black;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.button-rsvp:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(243, 164, 157);
+    color: rgb(243, 164, 157);
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+    padding: .5rem 1rem;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.img-button {
+    background: none;
+    color: none;
+    border: none;
+}
+
+.img-modal:hover {
+    cursor: pointer;
+}
+
 .bg-color1 {
     background-color: rgb(243, 164, 157);
 }
@@ -72,11 +119,12 @@ p {
 
 .box {
     padding: 3rem 1rem;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 5px solid rgb(229, 222, 211);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid rgb(243, 164, 157);
     margin: 2rem 0;
     width: 80%;
     height: auto;
+    color: white;
 }
 
 .spacing {
@@ -86,13 +134,16 @@ p {
     margin: 1rem 0;
 }
 
-.hr-white {
-    background-color: rgb(229, 222, 211);
+hr {
+    background-color: black;
+}
+
+.hr-pink {
     width: 80%;
 }
 
 .vertical-hr {
-    border-right: 1px solid rgb(229, 222, 211);
+    border-right: 1px solid black;
 }
 
 .margin-center {
@@ -127,7 +178,7 @@ footer {
 .board-member {
     height: 200px;
     width: 200px;
-    margin: 2rem 5rem;
+    margin: 2rem 3rem;
     display: inline-block;
 }
 

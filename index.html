@@ -6,38 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Women Empowerment Club</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
   </head>
 
   <body>
 
-    <section class="container-fluid text-center subscribe">
-      <a class="subscribe-link" href="#SubscribeModal">Subscribe to our mailing list</a>
-    </section>
+    <section class="container-fluid text-center subscribe-header">
 
-    <!-- Subscribe Modal -->
-    <div class="modal fade" id="SubscribeModal" tabindex="-1" role="dialog" aria-labelledby="SubscribeDialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="SubscribeDialog">Subscribe to our mailing list</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <!-- ToDo: Finish Form -->
+      <!-- Button trigger modal -->
+      <button type="button" class="button-link" data-toggle="modal" data-target="#exampleModal">
+        Subscribe to our mailing list
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Subscribe to Mailing List</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="colFormLabel" placeholder="someone@example.com">
+                </div>
               </div>
-            </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <header class="container-fluid text-center">
+    <header class="container-fluid text-center bg-pastel" style="height:70%;">
       <!-- WEC logo -->
       <h1>WECWOLVES</h1>
     </header>
@@ -45,7 +55,6 @@
     <section class="container-fluid text-center bg-color2">
       <!-- Mission Statement -->
       <div class="width-60 mx-auto">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <h2>Mission</h2>
         <hr />
         <p class="mission">
@@ -55,88 +64,134 @@
       </div>
     </section>
 
-    <section class="text-center bg-color1">
-      <h2 class="spacing">Who We Are</h2>
+    <section class="conatiner-fluid text-center bg-color1">
+      <h2 class="spacing">Executive Board</h2>
       <hr class="width-60" />
 
-      <div class="row">
-        <!-- Test Modal -->
-        <div class="modal fade" id="guoda" tabindex="-1" role="dialog" aria-labelledby="About Guoda" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="About Guoda">About Guoda</h5>
-                <button type="button" class="close" data-dismiss="modal">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+      <div class="row" style="width:100%;">
+        
+        <div class="col-sm">
+          <!-- Button trigger modal -->
+          <button type="button" class="img-button" data-toggle="modal" data-target="#guoda">
+            <div class="board-member img-modal">
+              <img class="board-picture rounded" src="images/placeholder.jpg" alt="A picture of Guoda.">
+              <div class="board-name">
+                Guoda
               </div>
-              <div class="modal-body">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim enim sit amet. Egestas sed tempus urna et. Id porta nibh venenatis cras sed felis eget.
-                  Et tortor consequat id porta. Turpis massa tincidunt dui ut ornare lectus sit amet. Vulputate ut pharetra sit amet. Id venenatis a condimentum vitae sapien pellentesque. Hac habitasse platea dictumst quisque. At consectetur lorem donec
-                  massa sapien faucibus et molestie. Nec ullamcorper sit amet risus nullam eget felis eget nunc.
-                </p>
+            </div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="guoda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">About Guoda</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-
-        <div class="board-member">
-          <img class="board-picture rounded" src="images/placeholder.jpg" alt="A picture of Guoda.">
-          <div class="board-name">
-            Guoda
+        <div class="col-sm">
+          <!-- Button trigger modal -->
+          <button type="button" class="img-button" data-toggle="modal" data-target="#gabrielle">
+            <div class="board-member img-modal">
+              <img class="board-picture rounded" src="images/placeholder.jpg" alt="A picture of Gabrielle.">
+              <div class="board-name">
+                Gabrielle
+              </div>
+            </div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="gabrielle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">About Gabrielle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Placeholder button; can be changed or removed later -->
-          <button class="btn btn-primary" data-toggle="modal" data-target="#guoda">Test Modal</button>
         </div>
-      </div>
 
-      <div class="col-sm">
-        <div class="board-member">
-          <img class="board-picture rounded" src="images/placeholder.jpg" alt="Picture of Arthur">
-          <div class="board-name">
-            Gabrielle
+        <div class="col-sm">
+          <!-- Button trigger modal -->
+          <button type="button" class="img-button" data-toggle="modal" data-target="#sol">
+            <div class="board-member img-modal">
+              <img class="board-picture rounded" src="images/placeholder.jpg" alt="A picture of Sol.">
+              <div class="board-name">
+                Sol
+              </div>
+            </div>
+          </button>
+              
+          <!-- Modal -->
+          <div class="modal fade" id="sol" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">About Sol</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-sm">
-        <div class="board-member">
-          <img class="board-picture rounded" src="images/placeholder.jpg" alt="Picture of Arthur">
-          <div class="board-name">
-            Sol
-          </div>
-        </div>
-      </div>
 
       </div>
 
       <!-- We want to have cards for each board member -->
     </section>
 
-    <section class="container-fluid text-center">
+    <section class="container-fluid text-center bg-pastel">
       <!-- Let's Hang Out -->
       <div class="mx-auto box">
         <h2 class="spacing">Let's Hang Out!</h2>
-        <hr class="hr-white" />
+        <hr class="hr-pink" />
         <div class="row margin-center">
+          
           <div class="col-6 vertical-hr">
             <h4>When</h4>
             <h6 class="spacing">
-                                September 1, 2017 <br />
-                                @ 12:00PM - 1:00PM EST
-                            </h6>
+              September 1, 2017 <br />
+              @ 12:00PM - 1:00PM EST
+            </h6>
           </div>
-          <div class="col-6">
 
+          <div class="col-6">
             <h4>Where</h4>
             <h6 class="spacing">
-                                MDC Wolfson Campus,<br />
-                                300 NE 2nd Ave, Miami, FL<br />
-                                33132, USA
-                            </h6>
+              MDC Wolfson Campus,<br />
+              300 NE 2nd Ave, Miami, FL<br />
+              33132, USA
+            </h6>
           </div>
+
+          <div class="row conatiner-fluid mx-auto">
+            <button class="button-rsvp" style="margin-top:2rem;">
+              RSVP
+            </button>
+          </div>
+
         </div>
       </div>
     </section>
@@ -166,16 +221,19 @@
       </div>
     </section>
 
-    <section class="container-fluid text-center">
-      <h2 class="spacing">Partners</h2>
+    <section class="container-fluid text-center bg-pastel">
+      <div class="mx-auto box">
+        <h2 class="spacing">Partners</h2>
+        <img src="https://www.mdcthereporter.com/wp-content/uploads/2016/08/MDC_Blue-copy.png" alt="Image of MDC Logo." style="width:300px;">
+      </div>
     </section>
 
     <footer class="container-fluid text-center">
       <div class="spacing">
         <h3 style="padding-bottom:1rem;">Contact Us</h3>
         <h6>
-                        For more information email us at <a class="foot-link" href="mailto:wec.wolfson@gmail.com">contact@wecwolves.com</a>
-                    </h6>
+          For more information email us at <a class="foot-link" href="mailto:wec.wolfson@gmail.com">contact@wecwolves.com</a>
+        </h6>
         <div class="row justify-content-center">
           <a href="#"><i class="fa fa-facebook foot-link" aria-hidden="true" style="padding:2rem;"></i></a>
           <a href="#"><i class="fa fa-instagram foot-link" aria-hidden="true" style="padding:2rem;"></i></a>
