@@ -112,6 +112,12 @@ footer {
     background-color: rgb(229, 222, 211);
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 /* CSS styling for board member section */
 
 .board-group {
