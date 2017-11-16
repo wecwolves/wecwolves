@@ -8,8 +8,18 @@
 /* CSS styling for header elements */
 
 header {
-    padding: 4rem 0;
+    padding: 1rem 0;
     /* background-color: rgb(229, 222, 221); */
+}
+
+.navigation-bar {
+    padding: 3rem 0;
+    background-color: rgb(229, 222, 211);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: auto;
 }
 
 .subscribe-header {
@@ -17,37 +27,35 @@ header {
 }
 
 .button-link {
-    color: black;
     text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    word-spacing: 1.5px;
-    padding: .5rem;
+    color: black;
+    background-color: white;
     border: 1px solid black;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+    letter-spacing: 2px;
     -o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
 	-webkit-transition: .5s;
-	transition: .5s;
+    transition: .5s;
 }
 
 .button-link:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgb(243, 164, 157);
-    color: rgb(243, 164, 157);
     text-decoration: none;
-    cursor: pointer;
-    letter-spacing: 2px;
-    padding: .5rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    color: white;
     -o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
 	-webkit-transition: .5s;
-	transition: .5s;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .bg-pastel {
-    background-image: url("../images/pastel-bg.jpg");
+    /* background-image: url("../images/pastel-bg.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
@@ -82,12 +90,10 @@ section {
 
 .button-rsvp:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgb(243, 164, 157);
-    color: rgb(243, 164, 157);
+    border: 1px solid white;
+    color: white;
     text-decoration: none;
     cursor: pointer;
-    letter-spacing: 3px;
-    padding: .5rem 1rem;
     -o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
@@ -99,6 +105,15 @@ section {
     background: none;
     color: none;
     border: none;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+    transition: .5s;
+}
+
+.img-button:hover {
+    cursor: pointer;
 }
 
 .img-modal:hover {
@@ -120,7 +135,7 @@ p {
 .box {
     padding: 3rem 1rem;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 5px solid rgb(243, 164, 157);
+    border: 5px solid rgb(241, 207, 203);
     margin: 2rem 0;
     width: 80%;
     height: auto;
