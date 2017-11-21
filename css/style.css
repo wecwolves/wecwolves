@@ -54,8 +54,8 @@ header {
     cursor: pointer;
 }
 
-.bg-pastel {
-    /* background-image: url("../images/pastel-bg.jpg"); */
+.bg-group {
+    /* background-image: url("../images/board/group.JPG"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
@@ -205,6 +205,10 @@ footer {
 .board-name {
     height: 25px;
     width: 200px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.65);
+    padding: .5rem 0;
+    letter-spacing: 1.25px;
 }
 
 /* CSS styling for links */
