@@ -211,6 +211,26 @@ footer {
     letter-spacing: 1.25px;
 }
 
+.board-title {
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.35);
+    letter-spacing: 1.25px;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+    transition: .5s;
+}
+
+.board-title:hover {
+    color: black;
+    -o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+    transition: .5s;
+}
+
 /* CSS styling for links */
 
 .foot-link {
