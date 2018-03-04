@@ -12,11 +12,6 @@ header {
     /* background-color: rgb(229, 222, 221); */
 }
 
-#logo {
-    background-color: rgb(234, 150, 129);
-    margin: 1rem;
-}
-
 .navigation-bar {
     padding: 3rem 0;
     background-color: rgb(229, 222, 211);
