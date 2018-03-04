@@ -55,7 +55,6 @@ header {
 }
 
 .bg-group {
-    /* background-image: url("../images/board/group.JPG"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
